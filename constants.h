@@ -83,12 +83,14 @@ namespace GameConstants {
 
     )";
 
+    constexpr const int RANGE              = 10;
+
     constexpr const int MAX_ENEMIES        = 90;
     constexpr const char* EMPTY            = "     ";
     constexpr const char BORDER_CORNER     = '+';
     constexpr const char BORDER_WALL_Y     = '|';
     constexpr const char* BORDER_WALL_X    = "-----";
-    constexpr const char* DOOR             = "[( . )]";
+    constexpr const char* DOOR             = "[(.)]";
 
     const int UPGRADE_TIMES[7][5] = {
                                       {200, 350, 450, 500, 700}, // Electric Tower
